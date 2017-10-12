@@ -1,7 +1,3 @@
-
-
-
-
 // Write a program that reads the user input one line at a time.
 // It would expect the user input to start with one of four mathematical
 // symbols: + - * / followed by two numbers, separated by spaces.
@@ -13,7 +9,6 @@
 // For example, if the user enters: * 2 3 the program will log 6.
 
 var readline = require('readline')
-
 
 var rl = readline.createInterface({
   input: process.stdin,
